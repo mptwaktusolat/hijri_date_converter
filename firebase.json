@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "site": "mpt-hijri-converter",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
