@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hijri/hijri_calendar.dart';
 import 'package:intl/intl.dart';
@@ -50,10 +49,10 @@ class _HijriDateConvertState extends State<HijriDateConvert> {
                 child: IconButton(
                   onPressed: () {
                     setState(() {
-                      _offsetDay = _offsetDay + 1;
+                      _offsetDay = _offsetDay - 1;
                     });
                   },
-                  icon: const Icon(Icons.add),
+                  icon: const Icon(Icons.remove),
                 ),
               ),
               Expanded(
@@ -75,10 +74,10 @@ class _HijriDateConvertState extends State<HijriDateConvert> {
                 child: IconButton(
                   onPressed: () {
                     setState(() {
-                      _offsetDay = _offsetDay - 1;
+                      _offsetDay = _offsetDay + 1;
                     });
                   },
-                  icon: const Icon(Icons.remove),
+                  icon: const Icon(Icons.add),
                 ),
               ),
               const Spacer(),

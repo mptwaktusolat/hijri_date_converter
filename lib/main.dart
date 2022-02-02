@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hijri_date_converter/hijri_date_convert.dart';
-import 'package:hijri_date_converter/shortcut_link.dart';
+import 'hijri_date_convert.dart';
+import 'shortcut_link.dart';
 
 void main() => runApp(const MyApp());
 
