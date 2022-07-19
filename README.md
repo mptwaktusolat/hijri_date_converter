@@ -1,16 +1,11 @@
 # hijri_date_converter
 
-A new Flutter project.
+To manually determine the offset value for hijri date in Malaysia by comparing with Jakim website. Which later set to Firebase Remote Config to be consume by [Malaysia Prayer Time app](https://play.google.com/store/apps/details?id=live.iqfareez.waktusolatmalaysia).
 
-## Getting Started
+## Problem statement
 
-This project is a starting point for a Flutter application.
+The [hijri](https://pub.dev/packages/hijri) package is not reliable enough to convert miladi date to hijri date (atleast in Malaysia). An offset would be needed to correct them.
 
-A few resources to get you started if this is your first Flutter project:
+## App
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://mpt-hijri-converter.web.app/#/
